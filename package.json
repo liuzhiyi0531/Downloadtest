@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1262.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "ftp": "^0.3.10",
+    "node-mirai-sdk": "^0.3.5",
+    "openai": "^3.1.0",
+    "png-chunk-text": "^1.0.0",
+    "png-chunks-extract": "^1.0.0",
+    "s3-node": "^0.0.1",
+    "shelljs": "^0.8.5",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.6.0",
+    "telegraf": "^4.10.0",
+    "then-request": "^6.0.2"
+  }
+}
