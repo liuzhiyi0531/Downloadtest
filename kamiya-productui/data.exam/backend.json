@@ -1,0 +1,11 @@
+{
+    "enable":{
+        "novelai": true,
+        "webui": true,
+        "novelai_img2img": true
+    },
+    "novelai":[
+    ],
+    "webui": [
+    ]
+}

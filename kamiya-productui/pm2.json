@@ -1,0 +1,31 @@
+{
+    "apps": [{
+      "name": "kamiya main",
+      "script": "app.js",
+      "watch": true,
+      "ignore_watch": ["node_modules","logs","data","public"],
+      "instances": 1,
+      "error_file": "logs/main_error.log",
+      "out_file": "logs/main_out.log",
+      "log_date_format": "YYYY-MM-DD HH-mm-ss"
+    },
+    {
+        "name": "kamiya telegram",
+        "script": "telegram.js",
+        "watch": true,
+        "ignore_watch": ["node_modules","logs","data","public"],
+        "instances": 1,
+        "error_file": "logs/tg_error.log",
+        "out_file": "logs/tg_out.log",
+        "log_date_format": "YYYY-MM-DD HH-mm-ss"
+    },
+    {
+      "name": "kamiya cdhook",
+      "script": "./kamiya_tools/kamiya_cd.js",
+      "watch": false,
+      "instances": 1,
+      "error_file": "logs/hook_error.log",
+      "out_file": "logs/hook_out.log",
+      "log_date_format": "YYYY-MM-DD HH-mm-ss"
+    }]
+}
